@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    background-color: lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.weapons {
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.weapon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+img:hover {
+    opacity: 70%;
+    cursor: pointer;
+} 
+
+img {
+    height: 190px;
+    width: 190px;
+    border: none;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.scoreboard {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 25px;
+}
+
+.score {
+    text-align: center;
+    font-size: 25px;
+}
+
+#userScore {
+    border: none;
+    border-radius: 50%; 
+    width: 60px;
+    display: inline-block;
+    margin-bottom: 25px;
+    font-size: 50px;
+    background-color: aliceblue;
+}
+
+#compScore {   
+    border: none;
+    border-radius: 50%; 
+    width: 60px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    display: inline-block;
+    background-color: aliceblue;
+}
+
+.showmsg {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}
+
+#msg {
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: gray;
+    color: lightgray;
+    font-size: 25px;
+}

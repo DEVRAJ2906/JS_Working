@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+#resetbtn,#change{
+    border: 2px black solid;
+    padding: 10px;
+    background-color: gray;
+    color: lightgray;
+    font-size: 25px;
+}
+
+h1 {
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    margin-left: 50px;
+    border: none;
+    padding: 0px;
+    background-color: black;
+    height: 60vmin;
+    width: 60vmin;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.btns {
+    border: none;
+    background-color: white;
+    font-size: 5rem;
+    height: 19vmin;
+    width: 19vmin;
+}
+
+.hide {
+    display: none;
+}
+
+.win {
+    height: 100vmin;
+    padding: 40vmin;
+}
+
+.playagain {
+    border: 2px black solid;
+    padding: 10px;
+    background-color: gray;
+    color: lightgray;
+    font-size: 25px;
+}
+
+.win-msg {
+    color: black;
+    background-color: white;
+    font-size: 50px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.turnsO {
+    display: inline;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
