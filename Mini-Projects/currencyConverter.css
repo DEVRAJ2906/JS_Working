@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    text-align: center;
+    background-color: lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.container {
+    padding: 3rem;
+    display: inline-block;
+    height: 50vh;
+    width: 50vh;
+    background-color: white;
+}
+
+.enter {
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 1.25rem;
+}
+
+input {
+    text-align: center;
+    padding: 0.5rem 0rem;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+    width: 100%;
+}
+
+.select {
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+}
+
+.input {
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fromTo {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    font-size: 1.25rem;
+}
+
+select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+}
+
+#print {
+    margin-top: 2rem;
+    padding: 20px 0px;
+    background-color: lightblue;
+    width: 100%;
+    font-size: 1.25rem;
+    display: inline-block;
+}
+
+#exchange {
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: 3px solid gray;
+    border-radius: 0.5rem;
+    background-color: brown;
+    color: lightgray;
+}
